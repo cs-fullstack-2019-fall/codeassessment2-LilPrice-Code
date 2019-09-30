@@ -12,3 +12,21 @@
 # 1  2  7 are smaller than 9
 # 12  24  34  10 are larger than 9
 # ```
+# got number from user
+usernum = int(input("Enter a number. "))
+numbers = [12, 24, 1, 34, 10, 2, 7]
+# extra variables
+small = ''
+large = ''
+# loop checking numbers
+for x in numbers:
+    # adding to small
+    if(x < usernum):
+        small = small + str(x) + ", "
+    # adding to large
+    elif(x > usernum):
+        large = large + str(x) + ", "
+# print output
+print(f"The User entered {usernum}")
+print(f"{small}are smaller than {usernum}")
+print(f"{large}are larger than {usernum}")

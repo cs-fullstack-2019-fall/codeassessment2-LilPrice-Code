@@ -14,3 +14,23 @@
 # # Update the rating from 2 to 8 from your code
 # The Grizzlies are from Memphis and are 8 in the standings.
 # ```
+# Creating Class
+class SportsTeam:
+    def __init__(self, team_name_p, team_city, team_ranking_p):
+        self.name = team_name_p
+        self.city = team_city
+        self.rank = team_ranking_p
+    # Changing Rank
+    def newrank (self, ranking):
+        self.rank = ranking
+        return self.rank
+    # Print class
+    def __str__(self):
+        return f'The {self.name} are from {self.city} and are {self.rank} in the standings.'
+
+# adding class
+STL = SportsTeam ("Cardinals", "St. Louis", 2)
+# output
+print(STL)
+STL.newrank(8)
+print(STL)

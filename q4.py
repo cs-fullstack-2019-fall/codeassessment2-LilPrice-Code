@@ -10,3 +10,13 @@
 
 # BIRD is longer than COW
 # ```
+#adding function
+def chk_strings():
+    # prompt user twice
+    user1 = input("Enter the first string: ")
+    user2 = input("Enter the second string: ")
+    # Checking strings
+    if(len(user1) > len(user2)):
+        print(f"{user1} is longer than {user2}")
+# calling function
+chk_strings()
