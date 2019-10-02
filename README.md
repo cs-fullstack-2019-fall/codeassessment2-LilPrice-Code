@@ -1,5 +1,17 @@
 # codeAssessment2
 #### Final Grade: 11.5 / 12
+1 Perfect. Even expected output
+
+2 Perfect. Even expected output
+
+3 Perfect. Even expected output
+
+4 Pretty good but did input and output in function
+
+5 Perfect. Even expected output
+
+6 Perfect. Even expected output
+
 ### Instructions
 Answer each question inside of the individual question files. Each file has the question paste inside of it.
 
